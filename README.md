@@ -1,1 +1,58 @@
-# pozn
+# Počítačové viry
+
+- počítačové **viry**
+	- škodlivý program, který se snaží "ublížit" uživateli infikovaného počítače a dostat z něj peníze jakýmkoliv způsobem (kdyby jen škodil tak by to nikdo nedělal, jde o peníze)(téměř nikdo)
+	- viry **mohou**: krást osobní data, zašifrovat uživatelská data, smazat počítač, těžit kryptoměny, a podobně (uživatelská data se dají prodat nebo za ně vymáhat peníze)
+	- **historie**
+		- první virus - Frederic Cohen (1983)
+		- první škodlivý virus - Brain (1986)
+		- viry Stoned, Vienna, Cascade (1987)
+		- vir Morrisův červ (1988)
+		- vir černobyl (1998)
+		- viry šířící se přes email (1999)
+		- ...
+	- **rozdělení**
+		- dle umístění
+			- rezidentní viry - v paměti RAM
+			- nerezidentní viry - mimo paměť RAM (disk, bios)
+		- dle projevu
+			- viry napadající pouze soubory - mažou, přepisujou, ...
+			- viry napadající bootloader a bootovací svazek
+			- viry napadající více svazků (souborový, boot, ...)(svazek je část disku prostě)
+			- makroviry - spustí se při určité operaci (uložení souboru) a něco provedou (smažou)
+		- speciální typy
+			- trojské koně
+				- umožňuje vzdálený přístup do počítače cizím lidem
+				- k tomu ještě špehuje
+				- neschopen replikace, stačí ho smazat
+			- červi
+				- kód který se šíří sám skrze počítačovou síť
+				- může škodit všemožně, to předchozí je jeho hlavní charakteristika
+			- logické bomby
+				- spustí se po splnění nějaké podmínky (datum, počet něčeho, ...)
+			- spyware
+				- špehuje a odesílá osobní data pryč z počítače
+			- ransomware
+				- zašifruje počítač se všemi daty a pro získání klíče k odšifrování je třeba zaplatit útočníkovi kryptoměnou
+			- adware - zahlcuje počítač reklamami
+	- **vedlejší efekty**
+		- časté zpomalení počítače
+		- zpomalení přístup k internetu
+		- ztráta dat
+		- zaplnění paměti počítače
+		- zabírání místa v počítači
+		- ...
+	- **infekce**
+		- při infekci počítače musí vir využít nějaké skulinky v bezpečnosti počítače, nebo přesvědčit uživatele aby se infikoval sám
+		- zabezpečením počítače se zabývá _cybersecurity_, včetně antivirů, školení zaměstnanců proti podvodům, testy aplikací apod.
+		- ta druhá možnost je typicky link v podezřelym mailu, stažená aplikace odněkud z netu a podobně
+- **antiviry**
+	- Avast, AVG, Norton, MacAffee, Windows Defender, ESET, ...
+	- program který detekuje viry (za běhu počítače, při stahování a instalaci, ...)
+- **prevence**
+	- použití antiviru (ten však počítač taky značně zpomaluje a taky vidí všechna data, je jen otázka kam je (ne)odesílá)
+	- nestahujte cracknutý nesvobodný software (aplikace, .exe soubory)
+	- záloha důležitých dat
+	- pravidelné aktualizace operačního systému (časté security updates - menší prostor pro viry)
+	- instalace firewallu - software, který spravuje kdo může a kdo nemůže (a případně co tam můžou) na internet nebo obecně na síť
+
